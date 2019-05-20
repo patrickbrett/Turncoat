@@ -1,6 +1,6 @@
 ## Turncoat
 
-Turncoat/Reversi/Othello built with React and TypeScript.
+Turncoat/Reversi/Othello built with React, TypeScript and SASS.
 
 See it live: https://patrickbrett.net/turncoat
 
