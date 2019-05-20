@@ -13,3 +13,4 @@ Features:
 Known issues:
 
 * "Show hints" mode causes display issues in Safari.
+* Board shifts slightly upward on game over
