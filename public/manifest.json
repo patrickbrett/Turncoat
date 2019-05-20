@@ -1,7 +1,6 @@
 {
   "short_name": "Turncoat",
   "name": "Turncoat game built with React + TypeScript",
-  "start_url": "./turncoat",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

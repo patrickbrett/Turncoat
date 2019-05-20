@@ -2,6 +2,7 @@
   "name": "turncoat",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
     "@types/react": "^16.8.15",
     "node-sass": "^4.12.0",

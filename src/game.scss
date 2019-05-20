@@ -77,3 +77,13 @@
         transition: 1s all;
     }
 }
+
+.option {
+    margin: 10px;
+
+    &button {
+        background: #fff;
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+}

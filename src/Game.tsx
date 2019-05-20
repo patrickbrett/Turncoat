@@ -235,9 +235,9 @@ class Game extends Component<Props, State> {
         <div id="heading">
           <div className={`squareCount` + ((turn === Square.WHITE) ? ` squareCountActive` : ``)}>{this.renderSquare(Square.WHITE, 0, 0)} {this.countSquares(Square.WHITE)}</div>
           <div className={`squareCount` + ((turn === Square.BLACK) ? ` squareCountActive` : ``)}>{this.renderSquare(Square.BLACK, 0, 0)} {this.countSquares(Square.BLACK)}</div>
-          <div><button onClick={this.toggleShowHints}>{showHints ? "Hide" : "Show"} Hints</button></div>
-          <div><button onClick={()=>this.computerMove(turn)}>Computer Move</button></div>
-          <div><button onClick={this.restartGame}>Restart</button></div>
+          <div className="option"><button onClick={this.toggleShowHints}>{showHints ? "Hide" : "Show"} Hints</button></div>
+          <div className="option"><button onClick={()=>this.computerMove(turn)}>Computer Move</button></div>
+          <div className="option"><button onClick={this.restartGame}>Restart</button></div>
         </div>
         {boardDisplay}
         <div>{isGameOver ? "Game Over" : null}</div>
